@@ -1,0 +1,11 @@
+npm init -y
+npm install express cors
+npm install nodemon -D
+npm start
+
+
+- to react
+
+npm create vite@latest client
+npm i axios
+npm run dev
