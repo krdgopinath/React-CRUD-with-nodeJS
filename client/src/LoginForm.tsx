@@ -31,7 +31,7 @@ const LoginForm = () => {
         <form className='login-form'>
            { error && ( <div className='error'>{error}</div>)}
             <div className='form-row'>
-              <h2>Login Form</h2>
+              <h2>Login Forms</h2>
             </div>
             <div className='form-row'>
                 <label htmlFor='uname'>Username</label>
