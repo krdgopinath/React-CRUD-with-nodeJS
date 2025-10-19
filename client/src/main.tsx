@@ -7,13 +7,15 @@ import Hooks from './Hooks';
 import UseMemoHooks from './UseMemoHooks';
 import FetchJSON from './FetchJSON';
 import FetchJSONSearch from './FetchJSONSearch';
+import FetchCRUD from './FetchCRUD';
 createRoot(document.getElementById('root')!).render(
  // <StrictMode>
       //  <BuiltIn />  // Java built in functions
       //   <LoginForm /> // Login and signup modal screen
          //  <Hooks/>
         // <FetchJSON />
-        <FetchJSONSearch />
+       // <FetchJSONSearch />
+       <FetchCRUD />
       //  <UseMemoHooks />
  // </StrictMode>,
 )
