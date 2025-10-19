@@ -8,6 +8,7 @@ import UseMemoHooks from './UseMemoHooks';
 import FetchJSON from './FetchJSON';
 import FetchJSONSearch from './FetchJSONSearch';
 import FetchCRUD from './FetchCRUD';
+import AxiosCRUD from './AxiosCRUID';
 createRoot(document.getElementById('root')!).render(
  // <StrictMode>
       //  <BuiltIn />  // Java built in functions
@@ -15,7 +16,8 @@ createRoot(document.getElementById('root')!).render(
          //  <Hooks/>
         // <FetchJSON />
        // <FetchJSONSearch />
-       <FetchCRUD />
+       //<FetchCRUD />
+       <AxiosCRUD />
       //  <UseMemoHooks />
  // </StrictMode>,
 )
