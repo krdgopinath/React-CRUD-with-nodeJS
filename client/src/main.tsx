@@ -9,6 +9,7 @@ import FetchJSON from './FetchJSON';
 import FetchJSONSearch from './FetchJSONSearch';
 import FetchCRUD from './FetchCRUD';
 import AxiosCRUD from './AxiosCRUID';
+import ControlledVSUncontrolled from './ControlledVSUncontrolled';
 createRoot(document.getElementById('root')!).render(
  // <StrictMode>
       //  <BuiltIn />  // Java built in functions
@@ -17,7 +18,8 @@ createRoot(document.getElementById('root')!).render(
         // <FetchJSON />
        // <FetchJSONSearch />
        //<FetchCRUD />
-       <AxiosCRUD />
+      // <AxiosCRUD />
       //  <UseMemoHooks />
+      <ControlledVSUncontrolled />
  // </StrictMode>,
 )
